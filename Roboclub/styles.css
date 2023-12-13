@@ -1,0 +1,62 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: yellowgreen;
+}
+
+h1 {
+    color: #444;
+}
+
+p {
+    color: #555;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Page-specific styles */
+
+/* index.html */
+#index h1 {
+    font-size: 32px;
+}
+
+#index p {
+    font-size: 18px;
+} 
+
+/* about.html */
+body{
+    background-color: violet;
+}
+#about h1 {
+    font-size: 28px;
+}
+
+#about p {
+    font-size: 16px;
+}
+
+/* contact.html */
+#contact h1 {
+    font-size: 24px;
+}
+
+#contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contact li {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,73 @@
+/* Custom CSS styles for the RoboClub website */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: blueviolet;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color:skyblue;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: #f0f0f0;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Add more specific styles for individual sections */
+
+section {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+section h2 {
+    color: #444;
+    border-bottom: 2px solid #444;
+    padding-bottom: 5px;
+}
+
+section p {
+    line-height: 1.6;
+}
+
+/* Media queries for responsiveness */
+
+@media screen and (max-width: 768px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav a {
+        margin: 5px 0;
+    }
+}
